@@ -1,0 +1,17 @@
+{
+    "name": "mee",
+    "log_types": [
+        "trigger"
+    ],
+    "log_statuses": [
+        "success"
+    ],
+    "policy": {
+        "type": "batch"
+    },
+    "action": {
+        "type": "function",
+        "name": "updateCollectionView"
+    },
+    "disabled": false
+}
